@@ -29,7 +29,8 @@ nav .menu li:hover{background:rgba(0,0,0,0.1)}
 .posts .post{background:#fff;border-radius:0 0 .5em .5em;box-shadow:2px 2px 10px rgba(0,0,0,0.5);color:#7a7a7a;margin-bottom:.5em;}
 .posts .post .acciones{border-top:3px solid #22bce0;padding:.5em;overflow:hidden;}
 .posts .post .acciones .datos{float:right;}
-.posts .post .acciones .datos .comentarios{background:#444;border-radius:3px;color:#fff;margin:0 1em 0 0;padding:2px 5px;text-decoration:none}
+.posts .post .acciones .datos .comentarios{background:#444;border-radius:3px;color:#fff;margin:0 1em 0 0;padding:3px 4px;text-decoration:none;}
+.posts .post .acciones .datos .comentarios:after{content:"";border-bottom:10px solid transparent;border-top:10px #444 transparent;border-right:5px solid #444}
 .posts .post .acciones .datos .estrellita{text-decoration:none;}
 .posts .post .acciones .datos .estrellita:after{color:#fcb92d;font-size:1.1em;content:"\e601";font-family:"iconitos"}
 .posts .post .acciones .votos{float:left;}
